@@ -2,6 +2,7 @@ import requests
 import json
 from datetime import datetime, timedelta
 
+
 class SomeResourceClient:
     def __init__(self, url):
         self.url = url
